@@ -16,8 +16,6 @@ def getEvent(line):
 countNOK = 0
 
 f = open("test.txt",'r')
-#    lines = f.readlines()
-#    for idx, line in enumerate(lines):
 line = f.readline()
 nextMinute = roundMunute(line)
 while line:
